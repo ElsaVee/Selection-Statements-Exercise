@@ -6,6 +6,8 @@ namespace SelectionStatementExercise
     {
         static void Main(string[] args)
         {
+           //Exercise 1
+
             var faveNumber = 8;
             Console.WriteLine("Try to guess my favorite number");
             int userInput = int.Parse(Console.ReadLine());
@@ -21,7 +23,9 @@ namespace SelectionStatementExercise
             else 
             {
                 Console.WriteLine("You got it!");
+                            
             }
+
 
         }   
     }
