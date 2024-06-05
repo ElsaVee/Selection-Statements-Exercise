@@ -6,7 +6,7 @@ namespace SelectionStatementExercise
     {
         static void Main(string[] args)
         {
-           //Exercise 1
+            //Exercise 1
 
             var faveNumber = 8;
             Console.WriteLine("Try to guess my favorite number");
@@ -20,10 +20,10 @@ namespace SelectionStatementExercise
             {
                 Console.WriteLine("Slow your Roll, too high!");
             }
-            else 
+            else
             {
                 Console.WriteLine("You got it!");
-                            
+
             }
 
             //Exercise 2
@@ -56,6 +56,7 @@ namespace SelectionStatementExercise
                 default:
                     Console.WriteLine($"{userSubject}, is that something new?");
                     break;
-            }   
+            }
+        }
     }
 }
